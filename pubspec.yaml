@@ -31,6 +31,7 @@ dependencies:
   audioplayers: ^0.10.0
   font_awesome_flutter: ^8.8.1
   carousel_slider: ^2.2.1
+  volume: ^1.0.1
 
 
 dev_dependencies:
@@ -50,14 +51,16 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/image1.jpg
-    - assets/images/image2.jpg
-    - assets/images/image3.jpg
-    - assets/images/image4.jpg
-    - assets/music/music1.mp3
-    - assets/music/music2.mp3
-    - assets/music/music3.mp3
-    - assets/music/music4.mp3
+    # - assets/images/image1.jpg
+    # - assets/images/image2.jpg
+    # - assets/images/image3.jpg
+    # - assets/images/image4.jpg
+    - assets/images/
+    - assets/music/
+    # - assets/music/music1.mp3
+    # - assets/music/music2.mp3
+    # - assets/music/music3.mp3
+    # - assets/music/music4.mp3
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

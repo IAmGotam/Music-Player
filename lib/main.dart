@@ -1,6 +1,5 @@
-import 'package:audio_player/Audio_Player.dart';
+import 'package:audio_player/Audio_Player_Screen.dart';
 import 'package:flutter/material.dart';
-
 
 void main() {
   runApp(MyApp());
@@ -11,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Audio_Player(),
+      home: AudioPlayerScreen(),
     );
   }
 }
